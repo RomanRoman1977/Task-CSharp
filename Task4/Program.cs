@@ -7,15 +7,15 @@ int num_3 = Convert.ToInt32(Console.ReadLine());
 
 if (num_1 > num_2 & num_1 > num_3)
 {
-    Console.WriteLine($"Максимальное число {num_1}");
+    Console.WriteLine($"Максимальное значение {num_1}");
 }
 else if (num_2 > num_1 & num_2 > num_3)
 {
-    Console.WriteLine($"Максимальное число {num_2}");
+    Console.WriteLine($"Максимальное значение {num_2}");
 }
 else if (num_3 > num_1 & num_3 > num_2)
 {
-    Console.WriteLine($"Максимальное число {num_3}");
+    Console.WriteLine($"Максимальное значение {num_3}");
 }
 if (num_1 == num_2 & num_1 == num_3)
 {
