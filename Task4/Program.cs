@@ -2,17 +2,22 @@
 int num_1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите значение № 2: ");
 int num_2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите значение № 3: ");
+int num_3 = Convert.ToInt32(Console.ReadLine());
 
-
-if (num_1 > num_2)
+if (num_1 > num_2 & num_1 > num_3)
 {
-    Console.WriteLine($"{num_1} больше {num_2}");
+    Console.WriteLine($"Максимальное число {num_1}");
 }
-else
+else if (num_2 > num_1 & num_2 > num_3)
 {
-    Console.WriteLine($"{num_2} больше {num_1}");
+    Console.WriteLine($"Максимальное число {num_2}");
 }
-if (num_1 == num_2)
+else if (num_3 > num_1 & num_3 > num_2)
+{
+    Console.WriteLine($"Максимальное число {num_3}");
+}
+if (num_1 == num_2 & num_1 == num_3)
 {
     Console.WriteLine("Значения равны");
 }
